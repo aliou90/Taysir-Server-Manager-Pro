@@ -1,0 +1,19 @@
+=======================================
+    I°/ CRÉATION INSTALLATEUR LINUX 
+======================================
+$ pip install pyinstaller
+
+$ pyinstaller --noconsole --onefile --name "taysirserver" runserver.py
+
+$ chmod +x buid_deb.sh
+ 
+$ ./buid_deb.sh
+
+$ sudo apt install ./taysirserver_1.0.deb
+
+=======================================
+    I°/ CRÉATION INSTALLATEUR LINUX 
+======================================
+1. Installer PyInstaller
+2. Créer exécutable avec OyInstaller
+3. Créer installateur 
