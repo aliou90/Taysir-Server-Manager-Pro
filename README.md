@@ -77,7 +77,10 @@ python runserver.py
 pyinstaller --noconsole --onefile --name "taysirserver" runserver.py
 
 ```
-#📜 À propos
+---
+
+# 📜 À propos
+
 Développé par Aliou Mbengue pour Taysir Digital Group.
 Cet outil s'inscrit dans notre mission de fournir des solutions logicielles innovantes et optimisées pour l'écosystème Tech local et international.
 
