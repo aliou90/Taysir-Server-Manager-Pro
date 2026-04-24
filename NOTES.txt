@@ -3,7 +3,7 @@
 ======================================
 $ pip install pyinstaller
 
-$ pyinstaller --noconsole --onefile --name "taysirserver" runserver.py
+$ pyinstaller --noconsole --onefile --name "taysirserver" app.py
 
 $ chmod +x buid_deb.sh
  
