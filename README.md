@@ -70,11 +70,11 @@ source venv/bin/activate
 pip install PyQt5 pyinstaller
 
 # Lancer l'application
-python runserver.py
+python app.py
 
 # Compilation de l'exécutable
 ## Générer l'exécutable Linux
-pyinstaller --noconsole --onefile --name "taysirserver" runserver.py
+pyinstaller --noconsole --onefile --name "taysirserver" app.py
 
 ```
 ---
